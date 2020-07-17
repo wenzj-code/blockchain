@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-07-17 22:44:43
- * @LastEditTime: 2020-07-17 22:47:15
+ * @LastEditTime: 2020-07-17 23:13:40
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \blockchain\src\part-1\blockchain.go
@@ -13,6 +13,11 @@ type BlockChain struct {
 	blocks []*Block
 }
 
+/**
+ * @description:
+ * @param {type}
+ * @return:
+ */
 // NewBlockChain 创建一个有创世块的链
 func NewBlockChain() *BlockChain {
 	return &BlockChain{[]*Block{NewGenesisBlock()}}

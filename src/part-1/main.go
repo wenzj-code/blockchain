@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-07-17 22:44:43
- * @LastEditTime: 2020-07-17 22:47:52
+ * @LastEditTime: 2020-07-17 22:54:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \blockchain\src\part-1\main.go
@@ -12,6 +12,11 @@ import (
 	"fmt"
 )
 
+/**
+ * @description:
+ * @param {type}
+ * @return:
+ */
 func main() {
 	bc := NewBlockChain()
 

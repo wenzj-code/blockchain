@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-07-17 22:44:43
+ * @LastEditTime: 2020-07-17 22:47:15
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \blockchain\src\part-1\blockchain.go
+ */
 package main
 
 // BlockChain 是一个 Block 指针数组

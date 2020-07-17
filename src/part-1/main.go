@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-07-17 22:44:43
- * @LastEditTime: 2020-07-17 22:54:20
+ * @LastEditTime: 2020-07-17 23:09:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \blockchain\src\part-1\main.go
@@ -13,7 +13,7 @@ import (
 )
 
 /**
- * @description:
+ * @description: main funtion
  * @param {type}
  * @return:
  */

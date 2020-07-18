@@ -20,7 +20,7 @@ import (
 func main() {
 	bc := NewBlockChain()
 
-	bc.AddBlock("Send 1 BTC to Ivan dd")
+	bc.AddBlock("Send 1 BTC to Ivan ddff")
 	bc.AddBlock("Send 2 more BTC ddto Ivan")
 
 	for _, block := range bc.blocks {

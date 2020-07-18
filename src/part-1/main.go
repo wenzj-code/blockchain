@@ -14,7 +14,7 @@ import (
 
 /**
  * @description: main funtion
- * @param {type}
+ * @param {type}   
  * @return:
  */
 func main() {
@@ -26,6 +26,7 @@ func main() {
 	for _, block := range bc.blocks {
 		fmt.Printf("Prev hash: %x\n", block.PrevBlockHash)
 		fmt.Printf("Hashx: %x\n", block.Hash)
+		fmt.Printf("Data: %s\n", block.Data)
 		fmt.Printf("Data: %s\n", block.Data)
 		fmt.Println()
 	}

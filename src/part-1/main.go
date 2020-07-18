@@ -14,13 +14,13 @@ import (
 
 /**
  * @description: main funtion
- * @param {type}   
+ * @param {type}
  * @return:
  */
 func main() {
 	bc := NewBlockChain()
 
-	bc.AddBlock("Send 1 BTC to Ivan")
+	bc.AddBlock("Send 1 BTC to Ivan dd")
 	bc.AddBlock("Send 2 more BTC to Ivan")
 
 	for _, block := range bc.blocks {
